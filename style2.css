@@ -1,0 +1,400 @@
+html{
+    font-size: 10px;
+   
+}
+body{
+    margin:0;
+    font-family:'lato','sans-serif';
+    background-color:#2F2F2F;
+    color:#CACACA;
+   
+
+}
+
+
+
+a:link a:hover{
+  text-decoration: none!important;
+  cursor: pointer;
+}
+.bandeau{
+    font-size: 3rem;
+    background-color: red;    
+    width: 30%;
+    display: -webkit-box;
+    display: flex;
+    
+}
+.contain{
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: end;
+            justify-content: flex-end;
+    
+}
+h1{
+    width: 60rem;     
+    text-align: center;  
+    
+   
+    
+   
+}
+.about{
+    height: 100vh;
+}
+
+.fa-chevron-right{
+    color:#CACACA;
+    font-size: 15rem;
+  
+    
+}
+.fa-twitter{
+    background-color:#3299FF;
+    width: 5rem;
+    height: 5rem;
+    margin:0 0 0 -2rem;
+    padding:1rem; 
+    
+}
+ 
+
+.fa-instagram{
+    background: radial-gradient(circle at 25% 110%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%),radial-gradient(circle at 25% 110%,#b9a800 0,#938500 5%,#b10f00 45%,#8c0061 60%,#002ca9 90%);
+    width: 5rem;
+    height: 5rem;
+    margin:0 0 0 -2rem;
+    padding:1.3rem; 
+}
+.fa-github{
+    background-color:#4E545A;
+    width: 5rem;
+    height: 5rem;
+    margin:0 0 0 -2rem;
+    padding:1.3rem;   
+
+}
+.suisMoi{
+    margin:0 0 0 -2rem;
+    padding:1rem;
+}
+
+.socialItem{
+    font-size: 3rem;
+}
+
+.socialnav {
+    list-style-type: none; 
+ 
+   
+}
+
+
+
+
+
+.social {
+    opacity:0;   
+    -webkit-animation: animesocial 1s forwards;   
+            animation: animesocial 1s forwards;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+}
+
+@-webkit-keyframes animesocial {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+
+@keyframes animesocial {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+.next{
+    opacity:0;   
+    -webkit-animation: animenext 1s forwards;   
+            animation: animenext 1s forwards;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+}
+
+@-webkit-keyframes animenext {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+}
+
+@keyframes animenext {
+   0%  {opacity:0;}
+   100% {opacity:1;}
+} 
+@-ms-keyframes animenext {
+  0%  {opacity:0;}
+  100% {opacity:1;}
+} 
+.bandeau{
+    opacity:0;   
+    -webkit-animation: animenext 1s forwards;   
+            animation: animenext 1s forwards;
+    -webkit-animation-delay: 3s;
+            animation-delay: 3s;
+}
+
+
+
+.btn-wrapper{   
+    
+   padding-top: 11px;
+   padding-bottom: 11px;
+    width: 88px;
+    text-align: center;
+    background-color: red;
+   position: fixed;
+   top:70%;
+   left: 45%;
+   color: white;
+   border-radius: 8px;
+   -webkit-animation:bouton 1s forwards;
+           animation:bouton 1s forwards;
+   
+   -webkit-animation-delay: 6s;
+   
+           animation-delay: 6s;
+   opacity: 0;
+   
+}
+.socialnav a{
+  text-decoration: none;
+}
+@-webkit-keyframes bouton {
+  0%  {opacity:0;
+  }
+  65%{opacity:1;
+    top:70%;
+   
+}
+75%{
+  opacity: 1;
+  top:65%
+}
+85%{
+  opacity: 1;
+  top:70%;
+}
+90%{
+  opacity: 1;
+  top:65%;
+
+}
+100%{
+  opacity: 1;
+  top:70%;
+
+}
+}
+@keyframes bouton {
+  0%  {opacity:0;
+  }
+  65%{opacity:1;
+    top:70%;
+   
+}
+75%{
+  opacity: 1;
+  top:65%
+}
+85%{
+  opacity: 1;
+  top:70%;
+}
+90%{
+  opacity: 1;
+  top:65%;
+
+}
+100%{
+  opacity: 1;
+  top:70%;
+
+}
+}
+
+ .css-typing p {
+    border-right: .15em solid orange;
+    font-family: "Courier";
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .css-typing p:nth-child(1) {
+    width: 22em;
+    -webkit-animation: type 2s steps(40, end);
+    -ms-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+   
+  }
+  
+  .css-typing p:nth-child(2) {
+    width: 22em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(40, end);
+    -ms-animation: type2 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    -ms-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+  }
+  
+  .css-typing p:nth-child(3) {
+    width: 22em;
+    opacity: 0;
+    -webkit-animation: type3 2s steps(40, end);
+    -ms-animation: type3 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    -ms-animation-delay: 2s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+   
+  }
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      border: none;
+    }
+  }
+  @-ms-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  @-ms-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-ms-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-ms-keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }

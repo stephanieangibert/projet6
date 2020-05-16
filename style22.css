@@ -1,0 +1,379 @@
+html{
+    font-size: 10px;
+    margin: 0;
+   
+   
+}
+body{
+    margin:0;
+    font-family:'lato','sans-serif';
+    background-color:#2F2F2F;
+    color:#CACACA;  
+    width: 100vw; /* Equivalent to 100% width of viewport */
+    height: 100vh; 
+
+}
+header {
+    display: grid;
+    grid-column: 25% 25% 25% 25%;
+        
+   
+  }
+  .bandeau{
+  
+  background-color: red;
+    text-align: center;
+    font-size: 40px;
+    grid-column-start: 4;   
+  }
+  .main{
+    display: grid;
+    display:-ms-grid;
+    -ms-grid-columns:25% 25% 25% 25%;
+    grid-column:25% 25% 25% 25%;
+    margin-top: 5%;
+    height: 60vh; 
+  
+   
+
+  }
+  .item1{
+    grid-column-start:1; 
+    -ms-grid-column: 1;
+    display: flex; 
+    justify-content:flex-start; 
+    align-items: center; 
+  
+    margin: 0;
+ 
+  }
+  li{
+      list-style-type: none;
+  }
+ 
+  .css-typing{
+    grid-column-start:2;
+    -ms-grid-column:2;
+    display: flex; 
+    display:-ms-flexbox;
+    flex-direction: column;
+    -ms-flex-direction: column;
+     justify-content:center;
+     -ms-flex-line-pack: center; 
+    
+    /* align-items: center; */
+  
+  }
+  .et{
+      padding-left: 5%;
+  }
+  .si{
+    padding-left: 4%;
+}
+.hello{
+    padding-left: 4%;
+}
+  
+  .item3{
+    grid-column-start:4; 
+    -ms-grid-column: 4; 
+    display: flex; 
+    display:-ms-flexbox;
+    justify-content: flex-end; 
+
+    align-items: center;  
+    -ms-align-item:center;  
+    font-size: 650%;
+  }
+  #retour{
+      font-size: 30%;
+      opacity:0;
+  }
+ 
+  .fa-twitter{
+    background-color:#3299FF;
+    width: 3rem;
+    height: 3rem;
+    margin:0 0 0 -2rem;
+    padding:1.3rem; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    color: white;
+
+    
+}
+ 
+
+.fa-instagram{
+    background: radial-gradient(circle at 25% 110%,#fdf497 0,#fdf497 5%,#fd5949 45%,#d6249f 60%,#285aeb 90%),radial-gradient(circle at 25% 110%,#b9a800 0,#938500 5%,#b10f00 45%,#8c0061 60%,#002ca9 90%);
+    width: 3rem;
+    height: 3rem;
+    margin:0 0 0 -2rem;
+    padding:1.3rem; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+
+}
+.fa-github{
+    background-color:#4E545A;
+    width: 3rem;
+    height: 3rem;
+    margin:0 0 0 -2rem;
+    padding:1.3rem;
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+
+}
+.suisMoi{
+    margin:0 0 0 -2.5rem;
+    padding:1rem;
+    font-size: 1.5rem;
+}
+.socialItem{
+    font-size: 3rem;
+}
+.socialItem a{
+    text-decoration: none;
+}
+.css-typing p {
+    border-right: .15em solid orange;
+    font-family: "Courier";
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .css-typing p:nth-child(1) {
+    width: 22em;
+    -webkit-animation: type 2s steps(40, end);
+    -ms-animation: type 2s steps(40, end);
+    animation: type 2s steps(40, end);
+    -webkit-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+   
+  }
+  
+  .css-typing p:nth-child(2) {
+    width: 22em;
+    opacity: 0;
+    -webkit-animation: type2 2s steps(40, end);
+    -ms-animation: type2 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    -ms-animation-delay: 2s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+ 
+  }
+  
+  .css-typing p:nth-child(3) {
+    width: 22em;
+    opacity: 0;
+    -webkit-animation: type3 2s steps(40, end);
+    -ms-animation: type3 2s steps(40, end);
+    animation: type2 2s steps(40, end);
+    -webkit-animation-delay: 2s;
+    -ms-animation-delay: 2s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+    -ms-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+   
+  }
+  
+  @keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      border: none;
+    }
+  }
+  @-ms-keyframes type {
+    0% {
+      width: 0;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      border: none;
+    }
+  }
+  
+  @keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @-webkit-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  @-ms-keyframes type2 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    99.9% {
+      border-right: .15em solid orange;
+    }
+    100% {
+      opacity: 1;
+      border: none;
+    }
+  }
+  
+  @keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @-webkit-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @-ms-keyframes type3 {
+    0% {
+      width: 0;
+    }
+    1% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  @-webkit-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }
+  @-ms-keyframes blink {
+    50% {
+      border-color: tranparent;
+    }
+  }
+  .btn-wrapper{   
+   
+    position: fixed;
+    top:70%;
+    left:45%;  
+    color: white;   
+    animation:bouton 1s forwards;    
+    animation-delay: 6s;
+    opacity: 0;
+    width:85px;
+	height:85px;
+	background:#cc0000;
+	font:bold 13px Arial;
+	border-radius:50%;
+	border:none;
+    color:#fff;
+   display: flex;
+   display:-ms-flexbox;
+   justify-content: center;
+
+   align-items: center;
+
+    
+ }
+ .btn-wrapper a{
+     text-decoration: none;
+     color: white;
+     font-weight: bold;
+ }
+ @keyframes bouton {
+    0%  {opacity:0;
+    }
+    65%{opacity:1;
+      top:70%;
+     
+  }
+  75%{
+    opacity: 1;
+    top:65%
+  }
+  85%{
+    opacity: 1;
+    top:70%;
+  }
+  90%{
+    opacity: 1;
+    top:65%;
+  
+  }
+  100%{
+    opacity: 1;
+    top:70%;
+  
+  }
+  }
+  .item3 a{
+      text-decoration: none;
+      color:#4E545A;
+  }

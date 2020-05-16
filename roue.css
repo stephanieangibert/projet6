@@ -1,0 +1,48 @@
+figure{
+    position: relative;
+    width: 60vw;
+    height: 40vw;
+    overflow: hidden;
+    background-image: url('image/moiTerce.jpg');
+    background-size: cover;
+    background-position: center;
+}
+figcaption{
+    position: absolute;
+    top:0;
+    padding-top: 12vw;
+    font-size: 10vw;
+    width: 100%;
+    height: 100%;
+    color:white;
+    text-align: center;
+}
+figure img{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    transition: 2s ease-in-out;
+    cursor: pointer;
+}
+figure img:first-of-type{
+    clip-path: polygon(0% 0%,100% 0%,100% 50%,0% 50%);
+
+
+}
+figure img:last-of-type{
+    clip-path: polygon(0 50%,100% 50%,100% 100%,0% 100%);
+}
+figure:hover img:first-of-type{
+    transform: translateY(-45%);
+}
+figure:hover img:last-of-type{
+    
+transform: translateY(45%);
+}
+nav{
+    display: flex;
+    justify-content: center;
+    
+}
+  
